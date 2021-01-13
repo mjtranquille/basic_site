@@ -1,9 +1,8 @@
 .name h3 {
-    color: orange;
     font-size: 40px;
 }
 .name h4 {
-    color: greenyellow;
+    color: orange;
 }
 h2 {
     padding-left: 150px;
@@ -22,8 +21,8 @@ h2 {
 }
 
 .skill-item ul {
-    text-align: right;
     list-style: none;
+    text-align: left;
 }
 
 .work-container {
