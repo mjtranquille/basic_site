@@ -1,0 +1,65 @@
+.name h3 {
+    color: orange;
+    font-size: 40px;
+}
+.name h4 {
+    color: greenyellow;
+}
+h2 {
+    padding-left: 150px;
+}
+.contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill-item {
+    flex-grow: 1;
+}
+
+.skill-item ul {
+    text-align: right;
+    list-style: none;
+}
+
+.work-container {
+    display: flex;
+}
+
+.work-item {
+    flex-grow:1;
+}
+
+.work-item h4,p,ul {
+    list-style: none;
+    text-align: right;
+}
+
+.education-container {
+    display: flex;
+}
+
+.edu-item {
+    flex-grow:1;
+}
+
+.edu-item h4,p {
+    text-align: right;
+}
+
+.cert-container {
+    display: flex;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.item ul {
+   text-align: right;
+   list-style: none;
+}
