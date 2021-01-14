@@ -1,0 +1,36 @@
+body {
+    margin: 60px;
+    margin-right: 300px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.A {
+    font: raleway 16px;
+}
+
+.A h4{
+    color: orange;
+}
+
+.B {
+    font: lato 11px;
+}
+
+.C h3 {
+    margin-top:0;
+}
+.E h3 {
+    margin-top:0;
+}
+
+.G h3 {
+    margin-top:0;
+}
+.side-hr {
+    width: 10px;
+    margin-left:0;
+}
