@@ -1,15 +1,44 @@
-.name h3 {
-    font-size: 40px;
+.contact-item {
+    flex-grow: 1;
 }
-.name h4 {
+.contact-item h3 {
+    font: raleway 24px;
+    padding-left: 15px;
+}
+.contact-item h4 {
+    font: raleway 16px;
     color: orange;
+    padding-left: 15px;
+}
+
+.contact-item-text {
+    margin-right: 25px;
+    align-items:center;
+}
+.contact-item-text h4{
+    font: raleway 12px bold;
+    text-align: start;
+    margin-left: 100px;
+}
+.contact-item-text p{
+    font: raleway 12px bold;
+    text-align: start;
+}
+
+.contact-container .contact-item-text .contact {
+    color: orange;
+}
+
+.contact-container {
+    display: flex;
 }
 h2 {
     padding-left: 150px;
 }
-.contact ul {
-    list-style: none;
-    padding-left: 0;
+
+h3 {
+    font: raleway 12px;
+    padding-left: 15px;
 }
 
 .skills-container {
@@ -18,6 +47,22 @@ h2 {
 
 .skill-item {
     flex-grow: 1;
+}
+.skill-item-text {
+    font: lato 11px;
+    margin-right: 25px;
+    align-items:center;
+}
+
+.skill-item-text p {
+    text-align: start;
+}
+.side-hr {
+    width: 10px;
+    margin-left: 15px;
+}
+.right-hr {
+    margin-left: 100px;
 }
 
 .skill-item ul {
@@ -32,10 +77,24 @@ h2 {
 .work-item {
     flex-grow:1;
 }
+.work-item-text {
+    font: lato 11px;
+    margin-right: 25px;
+    align-items:center;
+}
 
-.work-item h4,p,ul {
+.work-item-text h4,ul {
     list-style: none;
-    text-align: right;
+    text-align: start;
+    margin-left: 100px;
+}
+
+.work-item-text h5 {
+    text-align: start;
+}
+
+.work-item-text p {
+    text-align: start;
 }
 
 .education-container {
@@ -46,19 +105,32 @@ h2 {
     flex-grow:1;
 }
 
-.edu-item h4,p {
-    text-align: right;
+.edu-item-text {
+    margin-right: 25px;
+    font: lato 11px;
+}
+
+.edu-item-text h4,h5,p {
+    list-style: none;
+    text-align: start;
+    margin-left: 100px;
 }
 
 .cert-container {
     display: flex;
 }
 
-.item {
+.cert-item {
   flex-grow: 1;
 }
 
-.item ul {
-   text-align: right;
-   list-style: none;
+.cert-item-text {
+    margin-right: 25px;
+    font: lato 11px;
+}
+
+.cert-item p {
+    list-style: none;
+    text-align: start;
+    margin-left: 100px;
 }
